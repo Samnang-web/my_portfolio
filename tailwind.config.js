@@ -20,6 +20,13 @@ export default {
         overlayBg: 'rgba(0,0,0,0.3)',
       }
     },
+    container: {
+      center: true,
+      padding: {
+        DEFAULT: "12px",
+        md: "32px"
+      }
+    }
   },
   plugins: [],
 }
