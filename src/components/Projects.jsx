@@ -7,12 +7,18 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import ProjectCard from "./UI/ProjectsCard";
 import { Icon } from "@iconify/react";
+import code_1 from '../assets/code-1.jpg'
+import code_2 from '../assets/code-2.jpg'
+import code_3 from '../assets/code-3.jpg'
+import code_4 from '../assets/code-4.jpg'
+import code_5 from '../assets/code-5.jpg'
+import code_6 from '../assets/code-6.jpg'
 
 const projects = [
   {
     title: "Outfit",
     description: "Outfit is a E-commerce Website",
-    image: "../src/assets/code-1.jpg",
+    image: code_1,
     category: "Frontend",
     tags: ["React JS", "Tailwind CSS", "JavaScript"],
     liveLink: "https://outfit-ashen.vercel.app/",
@@ -21,7 +27,7 @@ const projects = [
   {
     title: "Home Estate",
     description: "A Frontend Site",
-    image: "../src/assets/code-2.jpg",
+    image: code_2,
     category: "FrontEnd",
     tags: ["React", "JavaScript", "Tailwind CSS"],
     liveLink: "https://home-estate-kappa.vercel.app/",
@@ -30,7 +36,7 @@ const projects = [
   {
     title: "Book Store",
     description: "",
-    image: "../src/assets/code-3.jpg",
+    image: code_3,
     category: "Frontend",
     tags: ["React", "Tailwind CSS", "JavaScript"],
     liveLink: "https://book-store-beige-seven.vercel.app/",
@@ -39,7 +45,7 @@ const projects = [
   {
     title: "Responsive Burger Website",
     description: "",
-    image: "../src/assets/code-4.jpg",
+    image: code_4,
     category: "Frontend",
     tags: ["Vue.js", "Tailwind CSS", "JavaScript"],
     liveLink: "https://burgerapp-dusky.vercel.app/",
@@ -48,7 +54,7 @@ const projects = [
   {
     title: "Responsive Plant Website",
     description: "",
-    image: "../src/assets/code-5.jpg",
+    image: code_5,
     category: "Frontend",
     tags: ["Vue.js", "JavaScript", "Tailwind CSS"],
     liveLink: "https://plants-chi.vercel.app/",
@@ -57,7 +63,7 @@ const projects = [
   {
     title: "Portfolio Website-1",
     description: "",
-    image: "../src/assets/code-3.jpg",
+    image: code_6,
     category: "Frontend",
     tags: ["Vue.js", "Tailwind CSS", "JavaScript"],
     liveLink: "https://portfolio-omega-vert-55.vercel.app/",
@@ -66,7 +72,7 @@ const projects = [
   {
     title: "Portfolio Website-2",
     description: "",
-    image: "../src/assets/code-1.jpg",
+    image: code_1,
     category: "Frontend",
     tags: ["Vue.js", "Tailwind CSS", "JavaScript"],
     liveLink: "https://portfoliowebsite-ivory.vercel.app/",
@@ -75,7 +81,7 @@ const projects = [
   {
     title: "Big Shop",
     description: "Is a Ecommerce website",
-    image: "../src/assets/code-3.jpg",
+    image: code_2,
     category: "Frontend",
     tags: ["React JS", "Tailwind CSS", "JavaScript"],
     liveLink: "https://bigshop-eight.vercel.app/",
@@ -84,7 +90,7 @@ const projects = [
   {
     title: "Clothes",
     description: "Is a Ecommerce website",
-    image: "../src/assets/code-5.jpg",
+    image: code_3,
     category: "Frontend",
     tags: ["React JS", "Tailwind CSS", "JavaScript"],
     liveLink: "https://clothes-inky.vercel.app/",
@@ -93,7 +99,7 @@ const projects = [
   {
     title: "E-commerce",
     description: "Is a Ecommerce website",
-    image: "../src/assets/code-2.jpg",
+    image: code_4,
     category: "Fullstack",
     tags: ["React JS", "Tailwind CSS", "JavaScript"],
     liveLink: "/",
