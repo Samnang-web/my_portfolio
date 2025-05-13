@@ -22,7 +22,7 @@ const projects = [
     category: "Frontend",
     tags: ["React JS", "Tailwind CSS", "JavaScript"],
     liveLink: "https://outfit-ashen.vercel.app/",
-    codeLink: "/",
+    codeLink: "https://github.com/Samnang-web/outfit",
   },
   {
     title: "Home Estate",
@@ -31,7 +31,7 @@ const projects = [
     category: "FrontEnd",
     tags: ["React", "JavaScript", "Tailwind CSS"],
     liveLink: "https://home-estate-kappa.vercel.app/",
-    codeLink: "/",
+    codeLink: "https://github.com/Samnang-web/home-estate",
   },
   {
     title: "Book Store",
@@ -40,7 +40,7 @@ const projects = [
     category: "Frontend",
     tags: ["React", "Tailwind CSS", "JavaScript"],
     liveLink: "https://book-store-beige-seven.vercel.app/",
-    codeLink: "/",
+    codeLink: "https://github.com/Samnang-web/book-store",
   },
   {
     title: "Responsive Burger Website",
@@ -49,7 +49,7 @@ const projects = [
     category: "Frontend",
     tags: ["Vue.js", "Tailwind CSS", "JavaScript"],
     liveLink: "https://burgerapp-dusky.vercel.app/",
-    codeLink: "/",
+    codeLink: "https://github.com/Samnang-web/burger",
   },
   {
     title: "Responsive Plant Website",
@@ -58,7 +58,7 @@ const projects = [
     category: "Frontend",
     tags: ["Vue.js", "JavaScript", "Tailwind CSS"],
     liveLink: "https://plants-chi.vercel.app/",
-    codeLink: "/",
+    codeLink: "https://github.com/Samnang-web/plants",
   },
   {
     title: "Portfolio Website-1",
@@ -67,7 +67,7 @@ const projects = [
     category: "Frontend",
     tags: ["Vue.js", "Tailwind CSS", "JavaScript"],
     liveLink: "https://portfolio-omega-vert-55.vercel.app/",
-    codeLink: "/",
+    codeLink: "https://github.com/Samnang-web/portfolio",
   },
   {
     title: "Portfolio Website-2",
@@ -76,7 +76,7 @@ const projects = [
     category: "Frontend",
     tags: ["Vue.js", "Tailwind CSS", "JavaScript"],
     liveLink: "https://portfoliowebsite-ivory.vercel.app/",
-    codeLink: "/",
+    codeLink: "https://github.com/Samnang-web/portfolio_2",
   },
   {
     title: "Big Shop",
@@ -85,7 +85,7 @@ const projects = [
     category: "Frontend",
     tags: ["React JS", "Tailwind CSS", "JavaScript"],
     liveLink: "https://bigshop-eight.vercel.app/",
-    codeLink: "/",
+    codeLink: "https://github.com/Samnang-web/bigshop",
   },
   {
     title: "Clothes",
@@ -94,7 +94,7 @@ const projects = [
     category: "Frontend",
     tags: ["React JS", "Tailwind CSS", "JavaScript"],
     liveLink: "https://clothes-inky.vercel.app/",
-    codeLink: "/",
+    codeLink: "https://github.com/Samnang-web/clothes",
   },
   {
     title: "E-commerce",
