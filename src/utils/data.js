@@ -23,10 +23,11 @@ export const SKILLS = [
 
         skills: [
             {skill: "HTML", percentage: "90%"},
-            {skill: "CSS", percentage: "70%"},
+            {skill: "CSS", percentage: "80%"},
             {skill: "React JS", percentage: "80%"},
             {skill: "Bootstrap", percentage: "70%"},
-            {skill: "Vue.js", percentage: "80%"},
+            {skill: "Vue.js", percentage: "70%"},
+            {skill: "Tailwind CSS", percentage: "80%"},
         ],
     },
     {
@@ -34,11 +35,11 @@ export const SKILLS = [
         icon: backend_icon,
 
         skills: [
-            {skill: "PHP", percentage: "70%"},
-            {skill: "Java", percentage: "40%"},
+            {skill: "PHP", percentage: "60%"},
+            {skill: "TypeScript", percentage: "40%"},
             {skill: "JavaScript", percentage: "70%"},
-            {skill: "C#", percentage: "70%"},
-            {skill: "Laravel", percentage: "70%"},
+            {skill: "C#", percentage: "50%"},
+            {skill: "Laravel", percentage: "60%"},
         ],
     },
     {
@@ -47,7 +48,7 @@ export const SKILLS = [
     
         skills: [
             {skill: "Git $ GitHub", percentage: "50%"},
-            {skill: "Visual Studio Code", percentage: "70%"},
+            {skill: "Visual Studio Code", percentage: "90%"},
         ],
     },
     {
@@ -56,25 +57,26 @@ export const SKILLS = [
     
         skills: [
             {skill: "Problem-Solving", percentage: "80%"},
-            {skill: "Collabaration", percentage: "60%"},
+            {skill: "Collabaration", percentage: "80%"},
         ],
     },
 ];
 
 export const PROFILE_DATA = {
     name: "Sam Nang",
-    tagline: "A frontend developer. With a Bachelor's degree in Computer Science from the University of Science and Technology and over the past 4 years",
+    tagline: "A frontend developer. With a Bachelor's degree in Computer Science from the University of Science and Technology.",
     jobtitle: "Front-End Developer",
     location: "Cambodia",
     yearOfExperience: 2,
     skills:[
         "React JS",
         "Vue.js",
+        "JavaScript",
         "Tailwind CSS",
     ],
     email: "samnangheang6@gmail.com",
     phone: "096 26 29 446 || 071 49 08 851",
-    website: "yyy",
+    website: "",
 };
 
 // export const SKILLS = [
@@ -183,11 +185,11 @@ export const WORK_EXPERIENCE = [
 
 export const ABOUT_ME_DATA = {
     introduction: 
-    "Hi, I'm Samnang Heang, a frontend developer. With a Bachelor's degree in Computer Science from the University of Science and Technology and over the past 4 years, I've had the opportunity to work on a variety of projects, ranging from dynamic e-commerce platforms to interactive dashboards. My passion lies in creating engaging web applications that enhance user experiences through thoughtful design and efficient code.",
+    "Hi, I'm Samnang Heang, a frontend developer. With a Bachelor's degree in Computer Science from the University of Science and Technology, I've had the opportunity to work on a variety of projects, ranging from e-commerce platforms to dashboards. My passion lies in creating engaging web applications that enhance user experiences through thoughtful design and efficient code.",
     background: 
-    "I am proficient in a range of technologies, including HTML, CSS, PHP, Laravel, JavaScript, Tailwind CSS, React JS, Vue.js, C# and others , alongside my expertise in React and Vue.js. I prioritize adhering to best practices in software development, ensuring that my applications are not only responsive and scalable but also maintainable and user-friendly.",
+    "I am proficient in a range of technologies, including HTML, CSS, PHP, Laravel, JavaScript, Tailwind CSS, React JS, Vue.js and others , alongside my expertise in React and Vue.js. I prioritize adhering to best practices in software development, ensuring that my applications are not only responsive and scalable but also maintainable and user-friendly.",
     interests: 
-    "Outside of development, I love exploring new places, capturing moments through photography, and playing guitar. Reading is a cherished pastime for me, and I'm always eager to discover new cuisines and culinary experiences.",
+    "Outside of development, I love exploring new places, capturing moments through photography, and learning new skills. Reading is a cherished pastime for me.",
     careerGoals: 
     "As I look to the future, I'm committed to continually refining my skills, exploring the latest technologies, and contributing to impactful projects that enhance users' lives. Whether collaborating with innovative teams or embarking on new ventures, I’m excited about the journey ahead and the difference I can make through technology.",
 

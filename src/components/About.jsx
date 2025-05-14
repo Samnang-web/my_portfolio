@@ -5,7 +5,7 @@ import { ABOUT_ME_DATA } from '../utils/data'
 
 const About = () => {
   return (
-    <section className='max-w-screen-2xl px-6 mx-auto py-10 md:py-24' id='about'>
+    <section className='max-w-screen-xl px-6 mx-auto py-10 md:py-24' id='about'>
       <h5 className='text-primary uppercase text-2xl md:text-4xl font-semibold text-center md:text-left pb-10 md:pb-14'>
         About Me
       </h5>

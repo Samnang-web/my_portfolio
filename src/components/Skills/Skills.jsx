@@ -11,7 +11,7 @@ const Skills = () => {
   };
 
   return (
-    <div className='max-w-screen-2xl px-6 mx-auto py-10 md:py-24'>
+    <div className='max-w-screen-xl px-6 mx-auto py-10 md:py-24'>
       <section id='skills'>
         <h5 className='text-primary text-2xl md:text-4xl uppercase font-semibold text-center md:text-left pb-10 md:pb-14'>
           My Skill

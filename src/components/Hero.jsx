@@ -49,7 +49,7 @@ const Hero = () => {
         <div className='w-full max-w-md bg-gradient-to-br from-blue-950 to-slate-900 rounded-lg border border-blue-950 p-6'>
           <div className='flex items-center justify-center'>
             <img
-              className='hero-img'
+              className='hero-img object-cover object-center'
               src={Profile_pic}
               alt='profile'
             />

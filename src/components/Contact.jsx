@@ -7,7 +7,7 @@ import { MdOutlineWeb } from 'react-icons/md'
 
 const Contact = () => {
   return (
-    <section className='max-w-screen-2xl mx-auto px-6 pb-20' id='contact'>
+    <section className='max-w-screen-xl mx-auto px-6 pb-20' id='contact'>
         <h5 className='text-primary uppercase text-2xl md:text-4xl font-semibold text-center pb-8 md:pb-14'>
           Contact
         </h5>

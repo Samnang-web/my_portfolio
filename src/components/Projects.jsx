@@ -117,7 +117,7 @@ const Projects = () => {
       : projects.filter((project) => project.category === selectedCategory);
 
   return (
-    <section id="project" className="relative w-11/12 px-16 pb-20 mx-auto">
+    <section id="project" className="max-w-screen-xl relative w-11/12 px-16 pb-20 mx-auto">
       <h5 className='text-primary uppercase text-2xl md:text-4xl font-semibold text-center pb-8 md:pb-14'>
           Projects
         </h5>
