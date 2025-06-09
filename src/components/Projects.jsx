@@ -97,13 +97,22 @@ const projects = [
     codeLink: "https://github.com/Samnang-web/clothes",
   },
   {
-    title: "E-commerce",
-    description: "Is a Ecommerce website",
+    title: "Noted Application",
+    description: "Full-stack ",
     image: code_4,
     category: "Fullstack",
-    tags: ["React JS", "Tailwind CSS", "JavaScript"],
-    liveLink: "/",
+    tags: ["Vue JS", ".Net core API", "SQL Server","Tailwind CSS", "TypeScript"],
+    liveLink: "https://notes-application-amber.vercel.app",
     codeLink: "/",
+  },
+  {
+    title: "Blog App with admin Dashboard",
+    description: "Full-stack ",
+    image: code_2,
+    category: "Fullstack",
+    tags: ["Vue JS", ".Net core API", "SQL Server","Tailwind CSS", "TypeScript"],
+    liveLink: "https://blog-frontend-sigma-ten.vercel.app",
+    codeLink: "https://github.com/Samnang-web/Blog-fullstack",
   },
 ];
 
