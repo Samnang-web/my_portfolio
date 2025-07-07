@@ -7,12 +7,12 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import ProjectCard from "./UI/ProjectsCard";
 import { Icon } from "@iconify/react";
-import code_1 from '../assets/code-1.jpg'
-import code_2 from '../assets/code-2.jpg'
-import code_3 from '../assets/code-3.jpg'
-import code_4 from '../assets/code-4.jpg'
-import code_5 from '../assets/code-5.jpg'
-import code_6 from '../assets/code-6.jpg'
+import code_1 from "../assets/code-1.jpg";
+import code_2 from "../assets/code-2.jpg";
+import code_3 from "../assets/code-3.jpg";
+import code_4 from "../assets/code-4.jpg";
+import code_5 from "../assets/code-5.jpg";
+import code_6 from "../assets/code-6.jpg";
 
 const projects = [
   {
@@ -101,18 +101,60 @@ const projects = [
     description: "Full-stack ",
     image: code_4,
     category: "Fullstack",
-    tags: ["Vue JS", ".Net core API", "SQL Server","Tailwind CSS", "TypeScript"],
-    liveLink: "https://notes-application-amber.vercel.app",
-    codeLink: "/",
+    tags: [
+      "Vue JS",
+      ".Net core API",
+      "Postgresql",
+      "Tailwind CSS",
+      "TypeScript",
+    ],
+    liveLink: "https://notes-application-1g64.vercel.app",
+    codeLink: "https://github.com/Samnang-web/Notes-Application",
   },
   {
     title: "Blog App with admin Dashboard",
     description: "Full-stack ",
     image: code_2,
     category: "Fullstack",
-    tags: ["Vue JS", ".Net core API", "SQL Server","Tailwind CSS", "TypeScript"],
-    liveLink: "https://blog-frontend-sigma-ten.vercel.app",
+    tags: [
+      "Vue JS",
+      ".Net core API",
+      "Postgresql",
+      "Tailwind CSS",
+      "TypeScript",
+    ],
+    liveLink: "https://blog-fullstack-alpha.vercel.app",
     codeLink: "https://github.com/Samnang-web/Blog-fullstack",
+  },
+  {
+    title: "Inventory System",
+    description: "Management System with Dashboard ",
+    image: code_2,
+    category: "Fullstack",
+    tags: [
+      "Vue JS",
+      ".Net core API",
+      "Postgresql",
+      "Tailwind CSS",
+      "TypeScript",
+    ],
+    liveLink: "https://inventory-system-ecru-three.vercel.app",
+    codeLink: "https://github.com/Samnang-web/Inventory-System",
+  },
+  {
+    title: "TO-DO List",
+    description: "With Authentication",
+    image: code_2,
+    category: "Fullstack",
+    tags: [
+      "Vue JS",
+      ".Net core API",
+      "Postgresql",
+      "Tailwind CSS",
+      "TypeScript",
+    ],
+    liveLink: "https://to-do-list-72cq.vercel.app",
+    codeLink: "https://github.com/Samnang-web/To-do-list",
   },
 ];
 
@@ -126,10 +168,13 @@ const Projects = () => {
       : projects.filter((project) => project.category === selectedCategory);
 
   return (
-    <section id="project" className="max-w-screen-xl relative w-11/12 px-16 pb-20 mx-auto">
-      <h5 className='text-primary uppercase text-2xl md:text-4xl font-semibold text-center pb-8 md:pb-14'>
-          Projects
-        </h5>
+    <section
+      id="project"
+      className="max-w-screen-xl relative w-11/12 px-16 pb-20 mx-auto"
+    >
+      <h5 className="text-primary uppercase text-2xl md:text-4xl font-semibold text-center pb-8 md:pb-14">
+        Projects
+      </h5>
       {/* Category Buttons */}
       <div className="flex justify-center space-x-4 my-6">
         {["All", "Frontend", "Fullstack"].map((category) => (
